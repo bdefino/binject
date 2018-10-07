@@ -7,7 +7,6 @@ __doc__ = "embed bits in binary"
 class Binject:
     """a mechanism for transmitting data in specific bits of binary"""
     ############needs to control the order in which bits are extracted/injected
-    ############should the positions be a tuple of (octet, bit) tuples?
     def __init__(self, positions = ()):
         self.positions = positions
     
