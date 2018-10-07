@@ -1,4 +1,4 @@
-__package__ = "exfil"
+__package__ = "binject"
 
 import ittybitty
 
