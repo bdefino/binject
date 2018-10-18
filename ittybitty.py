@@ -19,7 +19,7 @@ __doc__ = "itty bitty ops on bits"
 class BitAccess:
     """faculty for easy manipulation of a bit array"""
     
-    def __init__(self, octets = ''):
+    def __init__(self, octets = ""):
         self._current = 0
         
         if not isinstance(octets, bytearray):

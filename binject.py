@@ -47,7 +47,7 @@ class Binject:
         if dest_index > 0 and self.trail: # yield the trailing bits
             yield str(octet)
     
-    def inject(self, generator, src = ''):
+    def inject(self, generator, src = ""):
         """
         inject the octets across the generated binaries
 
