@@ -1,4 +1,4 @@
-__package__ = "binject"
+__package__ = __name__
 
 import ittybitty
 
